@@ -1,0 +1,186 @@
+.t{
+ background-color: #A6DCEF; 
+ margin-bottom: 0px;
+}
+h1{
+    margin: 33px;/*16px=100%=1 em 
+    If we put font size in body too then dynamic like em and % will inherit the font and add it with 
+    what we have specified in our any heading tag as body is parent of heading,but this does not 
+    works with static like px
+    IF we want this to not happen in case of dynamic then use rem instead of em.*/
+    margin-bottom: 9px;
+    margin-top: 7px;
+    font-family: 'Caveat', cursive;
+    font-size: 3.77em;
+    color: #E7305B;
+    
+}
+.h{
+    line-height: 2;
+    margin-top: 5px;
+    font-family: 'Neuton', serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #E7305B;
+}
+body{
+    margin:0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-weight: 600;
+    color:#40514E ;
+}
+.tcloud
+{
+    margin-top:77px;
+    position: relative;
+    left:266px;
+    top:15px;
+}
+.bcloud
+{
+    position: absolute;/*used absolute instead of relative because we want the change in flow of html.*/
+     left:333px;
+     top:233px;
+}
+.footer-link
+{
+    margin-top: 51px;
+    margin-bottom: 19px;
+    display: inline-block;
+    width: 107px;
+    color: #086972;
+    text-decoration: none;
+}
+h3{
+    color: #E7305B;
+}
+a{
+    color: #E7305B;
+}
+.skill-row
+{
+   /*display: inline-block;
+    text-align: center; OR*/
+    margin-left: auto;
+    margin-right: auto;
+    width: 51%;
+    margin-top: 77px;
+    margin-bottom:77px;
+    text-align: left;
+    line-height: 2;
+}
+.skill
+{
+    float: left;
+    width: 21%;
+    margin-right: 46px;
+
+}
+.bur
+{   float: right;
+    width: 21%;
+    margin-left:21px;
+}   
+.profile
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 31%;
+    margin-top: 66px;
+    margin-bottom:88px;
+
+}
+.hno
+{
+    margin-top: 31px;
+    margin-bottom: 44px;
+    color: #E7305B;
+    font-size: 34px;
+}
+.pt{
+    line-height: 2;
+    margin-bottom: 77px;
+}
+hr{
+    border-color: #A0C1B8;
+    border-style: none;
+    border-top-style: dotted;
+     border-width:7px;
+    width:7%;
+}
+.hno2
+{
+    margin-top: 49px;
+    margin-bottom: 54px;
+    color: #E7305B;
+    font-size: 34px;
+}
+.han
+{
+    margin-top: 33px;
+    margin-bottom: 23px;
+    color: #E7305B;
+    font-size: 34px;
+}
+.contact-me
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 51%;
+    margin-top: 77px;
+    margin-bottom:77px;
+    line-height: 2;
+}
+.q
+{
+    margin-top: 27px;
+    margin-right: 44px;
+}
+.btn {
+    background: #11CDD4;
+    background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+    background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family:'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 3px 20px 3px 20px;
+    text-decoration: none;
+    margin-top: 21px;
+    display: inline-block;
+    position:absolute;
+    left:588px;
+  }
+.btn:hover {
+    background: #30E3CB;
+    background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4A);
+    background-image: -moz-linear-gradient(top, #30E3CB, #2BC4A);
+    background-image: -ms-linear-gradient(top, #30E3CB, #2BC4A);
+    background-image: -o-linear-gradient(top, #30E3CB, #2BC4A);
+    background-image: linear-gradient(to bottom, #30E3CB, #2BC4A);
+    text-decoration: none;
+  }
+.bottom-container
+{
+    background-color: #12CAD6;
+    margin-top: 115px;
+}
+.copy
+{
+    color:#EAF6F6;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;;
+} 
+p{
+    line-height: 2;
+} 
+a:hover
+{
+    color: #EAF6F6;
+}     
